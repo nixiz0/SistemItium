@@ -22,6 +22,7 @@ def installer_software():
         "VSCode": "https://code.visualstudio.com/download",
         "VSCode C++": "https://visualstudio.microsoft.com/fr/vs/features/cplusplus/",
         "MinGW": "https://sourceforge.net/projects/mingw/",
+        "MYSYS2": "https://www.msys2.org/",
         "OBS": "https://obsproject.com/fr/download",
         "Discord": "https://discord.com/download",
         "Google Chrome": "https://www.google.com/chrome/",
