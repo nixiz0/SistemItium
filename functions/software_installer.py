@@ -21,6 +21,7 @@ def installer_software():
         "Git": "https://git-scm.com/downloads",
         "VSCode": "https://code.visualstudio.com/download",
         "VSCode C++": "https://visualstudio.microsoft.com/fr/vs/features/cplusplus/",
+        "MinGW": "https://sourceforge.net/projects/mingw/",
         "OBS": "https://obsproject.com/fr/download",
         "Discord": "https://discord.com/download",
         "Google Chrome": "https://www.google.com/chrome/",
@@ -73,6 +74,6 @@ def installer_software():
     submit_button = tk.Button(root, text="Submit", command=submit, font=("Helvetica", 12))
     submit_button.pack(pady=10)
     
-    root.minsize(330, 440)
-    root.maxsize(370, 460) 
-    center_window(root, 350, 450)
+    root.minsize(330, 490)
+    root.maxsize(370, 510) 
+    center_window(root, 350, 500)
