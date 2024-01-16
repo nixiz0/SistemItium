@@ -9,9 +9,12 @@ root = None
 def installer_software():
     global root
     if root is not None:
-        root.lift()
-        root.deiconify()
-        return
+        if root.winfo_exists():
+            root.lift()
+            root.deiconify()
+            return
+        else:
+            root = None
     
     software = {
         "Python 3.11": "https://www.python.org/downloads/release/python-3117/",

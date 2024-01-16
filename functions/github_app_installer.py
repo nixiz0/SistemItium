@@ -8,9 +8,12 @@ root = None
 def installer_github_app():
     global root
     if root is not None:
-        root.lift()
-        root.deiconify()
-        return
+        if root.winfo_exists():
+            root.lift()
+            root.deiconify()
+            return
+        else:
+            root = None
     
     apps_github = {
         "StableDiffusion": "https://github.com/lllyasviel/Fooocus",
