@@ -19,6 +19,7 @@ def installer_github_app():
         "StableDiffusion": "https://github.com/lllyasviel/Fooocus",
         "NVIDIA Eye Tracker": "https://github.com/NVIDIA/MAXINE-AR-SDK",
         "AI Voice Changer": "https://github.com/w-okada/voice-changer",
+        "Page (tkinter App)": "https://page.sourceforge.net/",
     }
 
     root = tk.Toplevel()
@@ -33,6 +34,6 @@ def installer_github_app():
                            bg='#333333', fg='white', font=("Helvetica", 14), width=16)
         button.pack(side='top', padx=5, pady=5)
         
-    root.minsize(330, 210)
-    root.maxsize(370, 250) 
-    center_window(root, 350, 230)
+    root.minsize(330, 240)
+    root.maxsize(370, 280) 
+    center_window(root, 350, 260)
