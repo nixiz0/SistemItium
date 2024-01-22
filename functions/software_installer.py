@@ -28,6 +28,8 @@ def installer_software():
         "Google Chrome": "https://www.google.com/chrome/",
         "Libre Office": "https://www.libreoffice.org/download/download/",
         "CoreTemp": "https://www.alcpu.com/CoreTemp/",
+        "Flux": "https://justgetflux.com/",
+        "Winrar": "https://www.win-rar.com/",
         "Ubuntu": "https://ubuntu.com/download/desktop",
         "Arduino": "https://www.arduino.cc/en/software",
         "NVidia": "https://www.nvidia.com/fr-fr/geforce/geforce-experience/download/",
@@ -75,6 +77,6 @@ def installer_software():
     submit_button = tk.Button(root, text="Submit", command=submit, font=("Helvetica", 12))
     submit_button.pack(pady=10)
     
-    root.minsize(330, 490)
-    root.maxsize(370, 510) 
-    center_window(root, 350, 500)
+    root.minsize(330, 520)
+    root.maxsize(370, 530) 
+    center_window(root, 350, 525)
