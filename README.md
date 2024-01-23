@@ -7,9 +7,9 @@ Application allowing you to install all the software and applications necessary 
 
 ## Installation
 
-Click on the **start-app.bat** and if you don't have Python, Git and VSCode installed it will redirect you directly to the urls to install them.
+Click on the **start-app.bat** and if you don't have Python, Git and VSCode installed it will redirect you directly to the urls to install them, if you have them it will **launch and make the installation automatically**.
 
-Once Python, Git and VSCode is installed, open on VSCode a terminal and do the commands bellow :
+But if you want to run the code from your code once Python, Git and VSCode is installed, do this :
 
 1-/ Clone this repository ```git clone https://github.com/nixiz0/SistemItium.git```
 
@@ -17,7 +17,7 @@ Once Python, Git and VSCode is installed, open on VSCode a terminal and do the c
 
 3-/ Download required libraries ```pip install -r requirements.txt```
 
-Now you can click on the .bat again and then choose the applications you want to install.
+4-/ Run the main.py ```python main.py```
 
 First you have the basic software that you can install and on the other 2 buttons give you the possibility to download usefull applications.
 
