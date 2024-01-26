@@ -20,6 +20,7 @@ def installer_github_app():
         "NVIDIA Eye Tracker": "https://github.com/NVIDIA/MAXINE-AR-SDK",
         "AI Voice Changer": "https://github.com/w-okada/voice-changer",
         "Page (tkinter App)": "https://page.sourceforge.net/",
+        "FaceFusion": "https://github.com/facefusion/facefusion",
     }
 
     root = tk.Toplevel()
