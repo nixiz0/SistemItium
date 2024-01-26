@@ -35,6 +35,6 @@ def installer_github_app():
                            bg='#333333', fg='white', font=("Helvetica", 14), width=16)
         button.pack(side='top', padx=5, pady=5)
         
-    root.minsize(330, 240)
-    root.maxsize(370, 280) 
-    center_window(root, 350, 260)
+    root.minsize(330, 310)
+    root.maxsize(370, 330) 
+    center_window(root, 350, 320)
