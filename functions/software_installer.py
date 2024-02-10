@@ -19,6 +19,7 @@ def installer_software():
     software = {
         "Python 3.11": "https://www.python.org/downloads/release/python-3117/",
         "Git": "https://git-scm.com/downloads",
+        "Docker": "https://www.docker.com/products/docker-desktop/",
         "VSCode": "https://code.visualstudio.com/download",
         "VSCode C++": "https://visualstudio.microsoft.com/fr/vs/features/cplusplus/",
         "MinGW": "https://sourceforge.net/projects/mingw/",
@@ -63,10 +64,10 @@ def installer_software():
 
     buttons = {}
     app_list = list(software.keys())
-    for i in range(0, len(app_list), 2):
+    for i in range(0, len(app_list), 3):
         frame = tk.Frame(root, bg='#333333')
         frame.pack(pady=5)
-        for j in range(2):
+        for j in range(3):
             if i + j < len(app_list):
                 app = app_list[i + j]
                 button = tk.Button(frame, text=app, command=lambda app=app: toggle(buttons[app]), 
@@ -77,6 +78,6 @@ def installer_software():
     submit_button = tk.Button(root, text="Submit", command=submit, font=("Helvetica", 12))
     submit_button.pack(pady=10)
     
-    root.minsize(330, 520)
-    root.maxsize(370, 530) 
-    center_window(root, 350, 525)
+    root.minsize(430, 400)
+    root.maxsize(470, 420) 
+    center_window(root, 450, 410)
