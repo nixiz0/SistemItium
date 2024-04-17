@@ -5,6 +5,11 @@
 Application allowing you to install all the software and applications necessary to code projects in Python and C/C++ and also to be able to build various personal projects.
 
 
+## Download
+
+You just have to **download "SystemItium.zip"**, open it and run the .exe for use the app.
+
+
 ## Installation
 
 Click on the **start-app.bat** and if you don't have Python, Git and VSCode installed it will redirect you directly to the urls to install them, if you have them it will **launch and make the installation automatically**.
