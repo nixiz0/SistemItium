@@ -22,6 +22,7 @@ def installer_software():
         "Docker": "https://www.docker.com/products/docker-desktop/",
         "VSCode": "https://code.visualstudio.com/download",
         "VSCode C++": "https://visualstudio.microsoft.com/fr/vs/features/cplusplus/",
+        "Java VSCode": "https://code.visualstudio.com/docs/java/java-tutorial",
         "MinGW": "https://sourceforge.net/projects/mingw/",
         "MYSYS2": "https://www.msys2.org/",
         "OBS": "https://obsproject.com/fr/download",
@@ -78,6 +79,6 @@ def installer_software():
     submit_button = tk.Button(root, text="Submit", command=submit, font=("Helvetica", 12))
     submit_button.pack(pady=10)
     
-    root.minsize(430, 400)
-    root.maxsize(470, 420) 
-    center_window(root, 450, 410)
+    root.minsize(430, 435)
+    root.maxsize(470, 460) 
+    center_window(root, 450, 440)
